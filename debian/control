@@ -8,7 +8,7 @@ Standards-Version: 3.9.3
 Package: board-boneblack
 Architecture: all
 Depends:
- u-boot-boneblack,
+ u-boot-am335x,
  linux-boneblack,
  firmware-boneblack,
  ${misc:Depends}
