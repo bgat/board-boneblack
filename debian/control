@@ -4,6 +4,7 @@ Priority: extra
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
+Vcs-Git: https://github.com/bgat/board-boneblack.git
 
 Package: board-boneblack
 Architecture: all
@@ -14,4 +15,15 @@ Depends:
  ${misc:Depends}
 Description: Board package for Beaglebone Black
  Defines the lowest-level packages required by any Beaglebone Black
+ target, regardless of the final application.
+
+Package: board-boneblackwireless
+Architecture: all
+Depends:
+ u-boot-am335x,
+ linux-boneblackwireless,
+ firmware-boneblackwireless,
+ ${misc:Depends}
+Description: Board package for Beaglebone Black Wireless
+ Defines the lowest-level packages required by any Beaglebone Black Wireless
  target, regardless of the final application.
