@@ -23,6 +23,7 @@ Depends:
  u-boot-am335x,
  linux-boneblackwireless,
  firmware-boneblackwireless,
+ firmware-ti-connectivity,
  ${misc:Depends}
 Description: Board package for Beaglebone Black Wireless
  Defines the lowest-level packages required by any Beaglebone Black Wireless
@@ -46,6 +47,7 @@ Depends:
  u-boot-am335x,
  linux-bonegreenwireless,
  firmware-bonegreenwireless,
+ firmware-ti-connectivity,
  ${misc:Depends}
 Description: Board package for Beaglebone Green Wireless
  Defines the lowest-level packages required by any Beaglebone Green Wireless
