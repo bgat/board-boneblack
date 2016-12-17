@@ -27,3 +27,26 @@ Depends:
 Description: Board package for Beaglebone Black Wireless
  Defines the lowest-level packages required by any Beaglebone Black Wireless
  target, regardless of the final application.
+
+
+Package: board-bonegreen
+Architecture: all
+Depends:
+ u-boot-am335x,
+ linux-bonegreen,
+ firmware-bonegreen,
+ ${misc:Depends}
+Description: Board package for Beaglebone Green
+ Defines the lowest-level packages required by any Beaglebone Green
+ target, regardless of the final application.
+
+Package: board-bonegreenwireless
+Architecture: all
+Depends:
+ u-boot-am335x,
+ linux-bonegreenwireless,
+ firmware-bonegreenwireless,
+ ${misc:Depends}
+Description: Board package for Beaglebone Green Wireless
+ Defines the lowest-level packages required by any Beaglebone Green Wireless
+ target, regardless of the final application.
