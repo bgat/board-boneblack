@@ -1,9 +1,9 @@
 Source: board-boneblack
 Section: embedded
-Priority: extra
+Priority: optional
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 10.0.0)
+Standards-Version: 4.0.0
 Vcs-Git: https://github.com/bgat/board-boneblack.git
 
 Package: board-boneblack
